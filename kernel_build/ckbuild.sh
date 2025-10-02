@@ -13,8 +13,8 @@ set -e
 
 # Other
 DEFAULT_DEFCONFIG="s5e8825-unified_defconfig"
-KERNEL_URL="https://github.com/FlopKernel-Series/flop_s5e8825_kernel"
-AK3_URL="https://github.com/FlopKernel-Series/AnyKernel3-s5e8825"
+KERNEL_URL="https://github.com/infectedmushi/flop_s5e8825_kernel"
+AK3_URL="https://github.com/infectedmushi/AnyKernel3-s5e8825"
 AK3_TEST=0
 SECONDS=0 # Built-in bash timer
 DATE="$(date '+%Y%m%d-%H%M')"
@@ -78,7 +78,7 @@ MKDTBOIMG="$(pwd)/kernel_build/dtb/mkdtboimg.py"
 
 ## Customizable vars
 # Kernel version
-FK_VER="v5.4.2"
+FK_VER="v5.5"
 
 # Toggles
 USE_CCACHE=1
